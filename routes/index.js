@@ -10,10 +10,10 @@ const templateTypes = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {
+  res.render('home', {
   title: 'Express',
   message: "I really like EJS",
-  templates : templateTypes
+  anothermessage : "handlebars is awesome"
   });
 });
 
